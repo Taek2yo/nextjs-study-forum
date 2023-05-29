@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .list-bg {
     background: rgb(231, 232, 236);
     padding: 10px;
@@ -28,16 +29,35 @@ body {
 
 .p-20 {
     padding: 20px;
-  }
-  input {
+}
+
+input {
     box-sizing: border-box;
     padding: 10px;
     display: block;
     margin-bottom: 10px;
-  }
-  button {
+}
+
+button {
     padding: 10px 15px;
-    background: lightgray;
+    background: rgb(57, 76, 187);
     border: none;
     border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    background: white;
+    padding: 20px;
+  }
+  .navbar a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    font-weight: bold;
   } 
