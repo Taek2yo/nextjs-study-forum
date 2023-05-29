@@ -15,11 +15,11 @@ export default async function List() {
             <Link prefetch={false} href={`/detail/${item._id}`}>
               <h4>{item.title}</h4>
             </Link>
-            <DetailLink/>
             <p>{item.content}</p>
           </div>
         );
       })}
+       
     </div>
   );
 }
