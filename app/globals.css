@@ -14,6 +14,8 @@ body {
     margin-bottom: 5px;
     box-shadow: rgb(80, 80, 80) 0px 2px 4px 0px;
     cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
 }
 
 .list-item h4 {
